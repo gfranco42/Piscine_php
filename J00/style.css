@@ -1,0 +1,42 @@
+p
+{
+	color: blue;
+}
+
+h1
+{
+	text-align: center;
+	font-family: fantasy, serif;
+	color: rgb(255, 0, 0);
+}
+
+.contrepeterie
+{
+	font-size: 150%;
+	color: #19CF63;
+}
+
+ol
+{
+	color: orangered;
+}
+
+.gif
+{
+	text-align: center;
+}
+
+.little_link
+{
+	text-align: right;
+}
+
+.float
+{
+	float: left;
+}
+
+.little_link
+{
+	color: #B52CE8
+}
