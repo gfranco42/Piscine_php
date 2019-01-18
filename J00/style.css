@@ -1,18 +1,18 @@
-p
+*
 {
-	color: blue;
+	font-family: sans-serif;
 }
 
 h1
 {
+	background: url("img/banniere.png") no-repeat 300px 0px;
 	text-align: center;
-	font-family: fantasy, serif;
-	color: rgb(255, 0, 0);
+	font-family: Trattatello, sans-serif;
+	color: rgba(0, 174, 255, 0.5)
 }
 
 .contrepeterie
 {
-	font-size: 150%;
 	color: #19CF63;
 }
 
@@ -21,14 +21,17 @@ ol
 	color: orangered;
 }
 
-.gif
+p[class="gif"]
 {
 	text-align: center;
 }
 
-.little_link
+div[class="lyrics"]
 {
-	text-align: right;
+	text-align: center;
+	font-family: "Marker Felt", fantasy, sans-serif;
+	color: rgb(94, 47, 116);
+	font-weight: bold;
 }
 
 .float
@@ -36,7 +39,36 @@ ol
 	float: left;
 }
 
-.little_link
+a[class="little_link"]
 {
-	color: #B52CE8
+	font-family: sans-serif;
+	text-decoration: none;
+	color: rgb(216, 189, 67);
+}
+
+.pokemon
+{
+	text-align: center;
+	display: block;
+}
+
+body
+{
+	background: url("img/WHM_LOGO.png") 580px 540px fixed, url("img/SKY.jpg") fixed 0px -400px;
+}
+
+mark
+{
+	background-color: rgba(61, 61, 255, 0.705);
+	color: rgb(216, 189, 67);
+}
+
+a, a[class="little_link"]
+{
+	text-decoration: none;
+}
+
+a:hover, a[class="little_link"]:hover
+{
+	color: rgb(0, 247, 255);
 }
