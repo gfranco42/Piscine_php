@@ -48,8 +48,15 @@ a[class="little_link"]
 
 .pokemon
 {
-	text-align: center;
-	display: block;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+div img[class="elem"]:nth-child(2)
+{
+	margin: auto;
+	background-color: blue;
 }
 
 body
