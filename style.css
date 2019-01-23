@@ -1,0 +1,74 @@
+*
+{
+	font-family: sans-serif;
+}
+
+h1
+{
+	background: url("img/banniere.png") no-repeat 300px 0px;
+	text-align: center;
+	font-family: Trattatello, sans-serif;
+	color: rgba(0, 174, 255, 0.5)
+}
+
+p[class="gif"]
+{
+	text-align: center;
+}
+
+.test
+{
+	text-shadow: 20px 10px rgba(0, 0, 0, 0.308);
+}
+
+div[class="lyrics"]
+{
+	text-align: center;
+	font-family: "Marker Felt", fantasy, sans-serif;
+	color: rgb(94, 47, 116);
+	font-weight: bold;
+}
+
+a[class="little_link"]
+{
+	text-decoration: none;
+	color: rgb(216, 189, 67);
+}
+
+.pokemon
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+div[class="pokemon"] img[class="1"]
+{
+	align-self: flex-start;
+}
+
+div[class="pokemon"] img[class="2"]
+{
+	background-color: blue;
+}
+
+div[class="pokemon"] img[class="3"]
+{
+	background-color: red;
+}
+
+body
+{
+	background: url("img/WHM_LOGO.png") 580px 540px fixed, url("img/SKY.jpg") fixed 0px -400px;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover, a[class="little_link"]:hover
+{
+	color: rgb(0, 247, 255);
+}

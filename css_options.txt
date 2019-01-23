@@ -1,0 +1,109 @@
+BACKGROUND:
+
+background-color: <NAME HEX RGB>;
+background-image: <une image, ou un gif>;
+background-repeat: <repeat-x/y hori or verti or NO-REPEAT>; both repeat by default
+background-attachment: <FIXED>;
+background-position: <right/left/etc top, Xpx Ypx>;
+
+BORDERS:
+
+border-style:
+		dotted - Defines a dotted border
+		dashed - Defines a dashed border
+		solid - Defines a solid border
+		double - Defines a double border
+		groove - Defines a 3D grooved border. The effect depends on the border-color value
+		ridge - Defines a 3D ridged border. The effect depends on the border-color value
+		inset - Defines a 3D inset border. The effect depends on the border-color value
+		outset - Defines a 3D outset border. The effect depends on the border-color value
+		none - Defines no border
+		hidden - Defines a hidden border
+border-width: <X px>
+border-color: <NAME HEX RGB>
+border-top/left/right/bottom-style:
+
+FONT:
+
+font-family: <la police a mettre>;
+font-style: <italic/oblique/normal>;
+fomt-size: <X px>;
+font-weight: <bold/normal>;
+font-variant: <small-caps/normal>;
+
+HEIGTH & WIDTH: height and width of an element
+
+height: Ypx;
+width: Xpx;
+
+LINK:
+
+a:link /*unvisited link*/
+a:visited
+a:hover /*mouse over link*/
+a:active
+/!\ hover must come AFTER a:link and a:visited !!
+
+LISTS:
+
+list-style-type: <circle/square/none> /*for ul*/
+list-style-type: <upper-roman/lower-alpha> /*for ol*/
+list-style-image: <url(image.png/gif.gif)>
+list-style-position: <inside/outside>
+
+
+MARGINS: distance entre les elements
+
+margin-top/left/right/bottom: <X px>
+margin: toppx rightpx bottompx leftpx;
+
+PADDING: distance a l'interieur du conteneur
+
+cf MARGINS;
+
+POSITION:
+
+absolute;
+	right/left/top/bottom: X px;
+	z-index: <chiffre>; /*priorité de hauteur*/
+fixed;
+	cf absolute; /*pareil mais reste fixé a la page meme si on descend*/
+relative;
+	cf absolute; /*deplace le block de X/Y px*/
+
+TEXT:
+
+color: cf before;
+text-align: <left/right/center/justify>;
+text-decoration: <overline/underline/line-through/none>;
+text-transformation: <uppercase/lowercase/capitalize>;
+text-indentation: <X px>;
+letter-spacing: <X px>;
+line-height: <x.y px>;
+direction: <rtl>;
+word-spacing: <X px>;
+text-shadow: <px px color>
+
+DISPLAY: FLEX :
+
+flex-direction: row(defaut), row-reverse, column, column-reverse;
+flex-wrap:
+		nowrap(defaut) = pas de retour a la ligne;
+		wrap = retour a la ligne;
+		wrap-reverse = a la ligne sens inverse;
+justify-content: /*aligner axe principale (entre les elements)*/
+		flex-start = alignes au debut;
+		flex-end = alignes a la fin;
+		center;
+		space-between;
+		space-around;
+align-items: /*aligner axe secondaire (chaque element)*/
+		stretch = s'etire sur l'axe (defaut);
+		flex-start;
+		flex-end;
+		center;
+		baseline; (semblable a flex-start)
+align-self: /*permet d'aligner un seul element*/
+		cf au-dessus;
+order: <position>; /*change l'ordre des elements*/
+
