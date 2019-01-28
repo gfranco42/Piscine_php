@@ -6,14 +6,42 @@
 		<title>Day of the 42</title>
 	</head>
 	<body>
-		<div>
-			<h1>Day of the 42</h1>
+		<div id="top">
+			<img class="doft" alt="Day of the 42" title="Day of the 42" src="resources/day_of_the_42.png"/>
 			<a href="https://disney.com" target="_blank">
-				<img class="reload" src="resources/reload.png"/>
+				<img class="reload" title="Recommencer au début" alt="Recommencer au début" src="resources/reload.png"/>
+			</a>
+			<img class="loupe" alt="Loupe" title="Loupe" src="resources/loupe.png"/>
+			<a href="https://relaischateaux.com" target="_blank">
+				<img class="close" title="Déconnecter" alt="Déconnecter" src="resources/close.gif"/>
 			</a>
 		</div>
-		<div>
-			<img src="resources/cluster.jpg"/>
+		<div id="left">
+			<img class="arrow" alt="Avancer" title="Avancer" src="resources/arrow.png"/>
+			<img class="main" alt="Prendre" title="Prendre" src="resources/main.png"/>
+			<img class="oeil" alt="Regarder" title="Regarder" src="resources/oeil.png"/>
+			<img class="outil" alt="Utiliser" title="Utiliser" src="resources/outil.png"/>
+			<img class="chat" alt="Parler" title="Parler" src="resources/chat-icon.png"/>
 		</div>
+		<div id="center">
+			<img usemap="#cluster_map" class="cluster" alt="Cluster" title="Cluster" src="resources/cluster.jpg"/>
+		</div>
+		<div id="right">
+			<img class="book" alt="Book" title="Book" src="resources/book.png"/>
+			<img class="towel" alt="Towel" title="Towel" src="resources/towel.png"/>
+			<div class="brick" alt="Brick" title="Brick"></div>
+		</div>
+		<div id="bot">
+			<p class="text_normal">Vous <span class="entrez">entrez</span> alors dans une grande piece remplie d'<span class="ordinateurs">ordinateurs</span>...<br/>
+			<span class="text_oblique">- Bonjour, vous êtes nouveau ici?</span></p>
+			<input class="input_text" type="text">
+			<input class="repondre" type="submit" value="Repondre">
+		</div>
+		<map name="cluster_map">
+			<area shape="rect" href="https://www.ikea.com" alt="Ikea" title="Ikea" target="_blanck" coords="450,370,600,600" />
+			<area shape="rect" href="https://www.apple.com" alt="apple" title="apple" target="_blanck" coords="1100,350,1380,550" />
+		</map>
 	</body>
 </html>
+
+<!--class="link_ikea" alt="Ikea" title="Ikea" -->
