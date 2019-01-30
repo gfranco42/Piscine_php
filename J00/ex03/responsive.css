@@ -1,0 +1,77 @@
+body
+{
+	background-image: url('https://i.pinimg.com/originals/ec/df/b2/ecdfb26333989aa9d5290f794f582339.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 2560px 1440px;
+	width: 100vmax;
+}
+
+h1
+{
+	font-size: 2vmax;
+	margin-top: 10vh;
+	text-align: center;
+	font-family: sans-serif;
+	text-shadow:  1px 1px 1px black, 0 0 10px blue, 0 0 2px darkblue;
+}
+
+table
+{
+	border-spacing: 0.3vmax;
+	margin: auto;
+	width: 75vmax;
+	text-align: center;
+}
+
+.col_nb
+{
+	font-size: 0.4vmax;
+	padding: 1vmax;
+	text-align: right;
+	vertical-align: center;
+}
+
+.col_word
+{
+	font-size: 0.4vmax;
+	padding: 0;
+	vertical-align: center;
+}
+
+.line_nb
+{
+	font-size: 0.4vmax;
+	vertical-align: bottom;
+}
+
+.cell
+{
+	box-shadow: 5px 5px 10px black;
+	padding: 0.4vmax;
+	border: black solid 2px;
+}
+
+.atom_nb
+{
+	margin: 0;
+	font-size: 0.4vmax;
+	vertical-align: top;
+	text-align: left;
+}
+
+.letter
+{
+	margin: 0;
+	font-size: 0.7vmax;
+	vertical-align: center;
+	text-align: center;
+}
+
+.atom_w
+{
+	margin: 0;
+	font-size: 0.4vmax;
+	vertical-align: bottom;
+	text-align: right;
+}
